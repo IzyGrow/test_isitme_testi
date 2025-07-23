@@ -268,7 +268,6 @@ export const HearingTest = ({ onBackToIntro }: HearingTestProps) => {
                 <span className="inline-flex items-center gap-2 bg-accent px-6 py-3 rounded-full mb-2">
                   <span className="text-2xl font-extrabold text-[#232323] tracking-tight">Kısa Anket</span>
                 </span>
-                <h2 className="text-3xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-0">İşitme Testi Anketi</h2>
               </div>
               <form className="p-8 md:p-12" onSubmit={e => { e.preventDefault(); if (surveyAnswers[q.id]) setSurveyStep(surveyStep + 1); }}>
                 <div className="mb-8">
@@ -321,34 +320,6 @@ export const HearingTest = ({ onBackToIntro }: HearingTestProps) => {
     {
       name: "Gaziemir Şubesi",
       address: "Örnekli Sesova Mahallesi, Örnek Yankı Sokak No:ÖR/01, 00000 Gaziemir / İzmir",
-      phone: "0 (532) 237 38 79",
-      email: "info@isletmeadi.com",
-      mapUrl: "https://maps.app.goo.gl/grb59UjR9ErViYZP7"
-    },
-    {
-      name: "Balçova Şubesi",
-      address: "Örnekli Sesova Mahallesi, Örnek Yankı Sokak No:ÖR/01, 00000 Balçova / İzmir",
-      phone: "0 (532) 237 38 79",
-      email: "info@isletmeadi.com",
-      mapUrl: "https://maps.app.goo.gl/grb59UjR9ErViYZP7"
-    },
-    {
-      name: "Menderes Şubesi",
-      address: "Örnekli Sesova Mahallesi, Örnek Yankı Sokak No:ÖR/01, 00000 Menderes / İzmir",
-      phone: "0 (532) 237 38 79",
-      email: "info@isletmeadi.com",
-      mapUrl: "https://maps.app.goo.gl/grb59UjR9ErViYZP7"
-    },
-    {
-      name: "Karşıyaka Şube",
-      address: "Örnekli Sesova Mahallesi, Örnek Yankı Sokak No:ÖR/01, 00000 Karşıyaka / İzmir",
-      phone: "0 (532) 237 38 79",
-      email: "info@isletmeadi.com",
-      mapUrl: "https://maps.app.goo.gl/grb59UjR9ErViYZP7"
-    },
-    {
-      name: "Yeşilyurt Şubesi",
-      address: "Örnekli Sesova Mahallesi, Örnek Yankı Sokak No:ÖR/01, 00000 Yeşilyurt / İzmir",
       phone: "0 (532) 237 38 79",
       email: "info@isletmeadi.com",
       mapUrl: "https://maps.app.goo.gl/grb59UjR9ErViYZP7"
