@@ -398,14 +398,14 @@ export const HearingTest = ({ onBackToIntro }: HearingTestProps) => {
                 {/* Sol taraf - İletişim Formu */}
                 <Card className="bg-gradient-card shadow-strong border border-border p-8">
                   <h2 className="text-2xl font-bold mb-6 text-center bg-gradient-primary bg-clip-text text-transparent">İletişim Formu</h2>
-                  <form action="https://formsubmit.co/berkay489@gmail.com" method="POST" className="space-y-6" target="_blank"
+                  <form action="https://formsubmit.co/hearingtest@izygrow.com" method="POST" className="space-y-6" target="_blank"
                     onSubmit={e => {
                       e.preventDefault();
                       const form = e.target as HTMLFormElement;
                       const formData = new FormData(form);
                       // Dinamik form oluştur
                       const newForm = document.createElement('form');
-                      newForm.action = "https://formsubmit.co/berkay489@gmail.com";
+                      newForm.action = "https://formsubmit.co/hearingtest@izygrow.com";
                       newForm.method = "POST";
                       newForm.target = "_blank";
                       for (const [key, value] of formData.entries()) {
